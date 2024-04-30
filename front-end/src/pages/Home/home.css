@@ -1,0 +1,84 @@
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.marca{
+    color:#0f181c
+}
+
+.home-all {
+    display: flex;
+    flex-direction: column;  
+    height: 130vh;
+    background-image: linear-gradient(to bottom, #33849f, rgb(238, 235, 235));
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #777;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);   
+}
+
+.post h2, 
+.post p{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.posth2::first-letter{
+    text-transform: uppercase;
+}
+
+
+.bem-vindo{
+    margin-top: 150px;
+    /* margin-bottom: 80px; */
+    text-align: center;
+    
+}
+
+.home-top{
+    display: flex;
+    flex-direction: column; 
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.FormularioAndHistoric {
+    display: flex;
+    justify-content: space-between; 
+    margin-inline-start: 7%;
+    margin-inline-end: 7%;
+  }
+  
+.formulario-container,
+.historic-container {
+    
+}
+
+
+.header {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    z-index: 1000;
+}
+
+.formulario-container{
+    width: 500px;
+}
+
+.historic-container{
+ 
+}
+.containerGrafico{
+    width: 500px;
+    height: 500px;
+    background-color:aquamarine;
+}

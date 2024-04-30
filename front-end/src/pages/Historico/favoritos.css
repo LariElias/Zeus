@@ -1,0 +1,23 @@
+.home-top{
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 80px;
+}
+.home-all {
+    display: flex;
+    flex-direction: column;  
+    height: 140vh;
+    /* width: 400vh; */
+    background-image: linear-gradient(to bottom, rgb(128, 164, 125), rgb(238, 235, 235));
+}
+
+.labelHistorico{
+    margin-top: 150px;
+    /* margin-bottom: 80px; */
+    text-align: center;
+    color:#355866;
+}
+
+.msg1{
+    margin-bottom: 80px;
+}

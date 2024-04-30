@@ -1,0 +1,44 @@
+
+.container1{
+    margin-inline-start: 13%;
+    
+}
+.card{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    /* border-radius: 15px; */
+
+}
+
+.botao1{
+    height: 2rem;
+    width: 4.5rem;
+    transition: 0.5s;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);   
+}
+
+.botao1:hover{
+    align-items: center;
+    height: 2rem;
+    width: 4.5rem;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+}
+
+
+.cardHead1{
+   
+    background-color: #B5CBB7!important;
+}
+.CardFormulario{
+    /* border-width: 15px; */
+    border-width: 5px!important;
+    border-color: #B5CBB7!important;
+}
+
+.butonForm{
+    background-color: rgb(63, 90, 80)!important;
+    border: none!important;
+}

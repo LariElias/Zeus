@@ -1,0 +1,116 @@
+.Recentes {
+    width: 28rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    /* border-radius: 15px; */
+}
+/* 
+.home1 h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-width: 5px!important;
+    border-color: #B5CBB7!important;
+} */
+
+.cabecalho{
+    display: flex;
+    gap: 7rem;
+    background-color: #B5CBB7!important;
+}
+
+.body-direita{
+    height: 300px!important;
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+
+.botao1{
+    height: 2rem;
+    width: 4.5rem;
+    transition: 0.5s;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);   
+}
+
+.botao1:hover{
+    height: 2rem;
+    width: 4.5rem;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    
+}
+
+.botao2:hover{
+    height: 2rem;
+    width: 4.5rem;
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: rgb(0, 119, 255);
+}
+
+.botao2{
+    height: 2rem;
+    width: 4.5rem;
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);   
+}
+
+.botaoModalCancelar{
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.botaoModalCancelar:hover{
+    margin-left: 20px;
+    background-color: #f07666f8!important;
+
+}
+
+.botaoModalEnviar{
+    transition: 0.5s;
+}
+
+.botaoModalEnviar:hover{
+    transition: 0.5s;
+    background-color: #5da547f8!important;
+}
+/* 
+.Modal{
+    z-index: 6 !important ;
+    position: fixed  !important;
+    display: flex  !important;
+    justify-content: center  !important;
+    align-items: center !important;
+    position: absolute !important;
+    background-color: black;
+} */
+
+.ModalAndHistoric{
+    display: flex;
+    margin-inline-end: 7%;
+
+}
+
+.table{
+    /* border-radius: 10px; */
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E4E9B2!important;
+
+}
+.cardHeader2{
+    background-color: #B5CBB7!important;
+}
+
+.cardHistotico{
+    border-width: 5px!important;
+    border-color: #B5CBB7!important;
+}

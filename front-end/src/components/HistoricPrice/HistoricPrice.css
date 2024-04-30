@@ -1,0 +1,221 @@
+/* .Historico {
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    /* border-radius: 15px;
+
+ */ 
+
+.body-direita {
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+
+.botao1 {
+    height: 2rem;
+    width: 4.5rem;
+    transition: 0.5s;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.botao1:hover {
+    height: 2rem;
+    width: 4.5rem;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+
+}
+
+.botao2:hover {
+    height: 2rem;
+    width: 4.5rem;
+    transition: 0.5s;
+    border-radius: 5px;
+    
+}
+
+.botao2 {
+    height: 2rem;
+    width: 4.5rem;
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.botaoModalCancelar {
+    margin-left: 50px;
+    transition: 0.5s;
+    background-color: rgb(110, 139, 129)!important;
+    border: none!important;
+}
+
+.botaoModalCancelar:hover {
+    margin-left: 50px;
+    background-color: rgb(63, 90, 80)!important;
+    border: none!important;
+}
+
+.botaoModalEnviar {
+    transition: 0.5s;
+    background-color: rgb(110, 139, 129)!important;
+    border: none!important;
+}
+
+.botaoModalEnviar:hover {
+    transition: 0.5s;
+    background-color: rgb(63, 90, 80)!important;
+}
+
+/* 
+.Modal {
+    z-index: 10 !important;
+    position: fixed ;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    position: absolute ;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(63, 90, 80);
+    border-radius: 30px;
+} */
+
+/* .modal-form{
+    z-index: 10 !important;
+    position: fixed ;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    position: absolute ;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(63, 90, 80);
+    border-radius: 30px;
+} */
+
+.form-modal {
+    flex-direction: column;
+    z-index: 10 !important;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -50%);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.botoesModal {
+    justify-content: space-between;
+}
+
+/* 
+.ModalAndHistoric{
+    display: flex;
+    margin-inline-end: 7%;
+    background-image: linear-gradient(to bottom, #D2E4C4, rgb(238, 235, 235));
+    flex-direction: column;  
+    height: 130vh;
+} */
+
+.table {
+    border-radius: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CardHistoricoBody {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.labelCard {
+    font-weight: bold;
+}
+
+.cardHead {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B5CBB7 !important;
+}
+
+.CardHistorico {
+    margin-bottom: 5px;
+}
+
+.cardTop {
+    background-color: #B5CBB7 !important;
+    font-weight: 300;
+}
+
+.monthSelect {
+    border-radius: 5px;
+    background-color: #B5CBB7 !important;
+}
+
+.home-allHistoric {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(16%, -10%);
+}
+
+.card-historic-container {
+    width: 500px;
+    /* top: 100px;
+    left: 1000px; */
+}
+
+.total-gastos-card {
+    width: 500px;
+    
+    box-shadow: none;
+    border-style: double;
+}
+
+h3,
+.total-gastos-card {
+    align-items: center;
+    box-shadow: none;
+    border-style: double;
+
+}
+
+.containerGrafico {
+    width: 400px;
+    height: 500px;
+}
+
+.Graph{
+    display: flex;
+    transform: translate(-30%, 0%);
+    width: 600px;
+    height: 300px;
+    background-color: #B5CBB7 ;
+    border-radius: 15px;
+    border:dashed #fff;
+    border-width: 3px;
+    padding: 5px;
+}
+
+.canva{
+    background-color: black;
+}
+
